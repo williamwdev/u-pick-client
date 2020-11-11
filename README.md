@@ -1,8 +1,8 @@
 # U-Pick Client
 
-[Deployed Link](https://u-pick-client.vercel.app/) -- in progress
-[Deployed API](https://pacific-waters-53419.herokuapp.com/) -- in progress
-[Server repo](https://github.com/williamwdev/u-pick-api)
+- [Deployed Link](https://u-pick-client.vercel.app/) -- in progress
+- [Deployed API](https://pacific-waters-53419.herokuapp.com/) -- in progress
+- [Server repo](https://github.com/williamwdev/u-pick-api)
 
 ## Overview
 
