@@ -1,10 +1,37 @@
-# Getting Started with Create React App
+# Getting Started with Create React App Reference
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Setting up
 
-In the project directory, you can run:
+1. Make sure to have the most current version of [Node](https://nodejs.org/en/)
+2. Run `node --version` and `npm --version`
+3. Run `npx create-react-app name-of-project`
+4. Run `npm install` to install all dependencies
+5. Run `rm ./src/serviceWorker.js ./src/App.css ./src/logo.svg`
+6. Update contents of `./src/App.js` as follows:
+``` javascript
+import React from 'react';
+
+function App() {
+  return (
+    <main className='App'>
+      <h1>New Project</h1>
+    </main>
+  );
+}
+
+export default App;
+```
+7. Update contents of `./src/index.js` as follows:
+``` javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import './index.css';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+```
 
 ### `npm start`
 
